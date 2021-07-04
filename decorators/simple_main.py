@@ -1,7 +1,7 @@
-from simple_decorators import timer, debug, slow_down, register
+from decorators import timer, debug, slow_down, register
 import math
 import random
-from simple_decorators import PLUGINS
+from decorators import PLUGINS
 
 @timer
 def waste_some_time(num_times):
