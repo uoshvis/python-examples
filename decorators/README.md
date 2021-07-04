@@ -38,8 +38,20 @@ import functools
 The @functools.wraps decorator uses the function functools.update_wrapper() to update special attributes like __name__ and __doc__ that are used in the introspection.
 
 
-#### Simple decorators examples
+### Simple decorators
 
 [simple_decorators.py](simple_decorators.py)
 
 [simple_main.py](simple_main.py)
+
+### Fancy decorators
+
+#### Decorating Classes
+
+**Built-in class decorators**
+
+The `@classmethod` and `@staticmethod` decorators are used to define methods inside a class namespace that are not connected to a particular instance of that class.
+
+The `@property` decorator is used to customize getters and setters for class attributes.
+
+[built_in_decorators.py](built_in_decorators.py)
